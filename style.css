@@ -1,6 +1,8 @@
+https://www.pexels.com/api/documentation/
+
 :root {
-    --background-color: #F0F2F5;
-    --primary-color: #404EED;
+    --background-color: #F6F6F6;
+    --primary-color: #1B3B48;
     --white: #fff;
     --grey: #E7E7E7;
 }
@@ -35,4 +37,9 @@ h6 {
 
 button {
     cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
